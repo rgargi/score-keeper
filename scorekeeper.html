@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+	<title>Score Keeper</title>
+</head>
+<body>
+
+<section class="container">
+	<h1><span id="p1">0</span> to <span id="p2">0</span></h1>
+
+	<p>Playing to: <span id="dtotal">5</span></p>
+	<input type="number" name="total" id="total" min="3" max="100" value="5">
+	<!-- <label for="tentacles">Number of tentacles (10-100):</label> -->
+
+	<button class="btn btn-primary" id="p1">Player One</button>
+	<button class="btn btn-success" id="p2">Player Two</button>
+	<button class="btn btn-danger">Reset</button>
+</section>
+
+<script type="text/javascript" src="scorekeeper.js"></script>
+</body>
+</html>
